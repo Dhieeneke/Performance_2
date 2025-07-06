@@ -106,16 +106,4 @@ export const TABS = {
     }
 };
 
-// Оптимизированный алгоритм создания айтемов
-export function generateItems(baseItems, count = 6) {
-    const items = [...baseItems];
-    for (let i = 0; i < count; ++i) {
-        items.push(...baseItems);
-    }
-    return items;
-}
-
-// Применяем оптимизированный алгоритм
-TABS.all.items = generateItems(TABS.all.items);
-
 export const TABS_KEYS = Object.keys(TABS); 

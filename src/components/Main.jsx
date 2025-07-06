@@ -15,18 +15,6 @@ export function Main() {
         }
     });
 
-    // Lazy load non-critical CSS
-    React.useEffect(() => {
-        const link = document.createElement('link');
-        link.rel = 'stylesheet';
-        link.href = '/src/styles.css';
-        link.media = 'print';
-        link.onload = () => {
-            link.media = 'all';
-        };
-        document.head.appendChild(link);
-    }, []);
-
     const onSelectInput = event => {
         setActiveTab(event.target.value);
     };
