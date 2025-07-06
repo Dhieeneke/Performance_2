@@ -10,17 +10,20 @@ export default defineConfig({
         },
       },
     },
-    cssCodeSplit: true,
+    cssCodeSplit: false,
     minify: 'terser',
     terserOptions: {
       compress: {
         drop_console: true,
         drop_debugger: true,
         pure_funcs: ['console.log'],
+        passes: 2,
       },
+      mangle: true,
     },
     target: 'es2015',
     sourcemap: false,
+    assetsInlineLimit: 4096,
   },
   resolve: {
     alias: {
