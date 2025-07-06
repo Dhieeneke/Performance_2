@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->
@@ -21,3 +22,11 @@
         </g>
     </g>
 </svg>
+=======
+<svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <g transform="translate(2, 2)" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+        <circle cx="10" cy="10" r="10"/>
+        <polyline opacity="0.3" points="10 4 10 10 13 13"/>
+    </g>
+</svg> 
+>>>>>>> 0ec50e8d4f5ec826dd1804e65c717b0ec30019ee

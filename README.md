@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Яндекс.Дом - Оптимизированная версия
 
 ## Оптимизации производительности
@@ -93,6 +94,8 @@ npm run optimize-images
 - **CSS Optimization**: Critical CSS + lazy loading
 - **Image Format**: WebP с PNG fallback
 
+=======
+>>>>>>> 0ec50e8d4f5ec826dd1804e65c717b0ec30019ee
 # ШРИ 2025: Performance
 
 ## Задание
